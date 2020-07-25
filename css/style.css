@@ -1046,7 +1046,7 @@ h3.title-w3-2 {
 }
 
 .stats-main-w3pvt {
-    background: rgba(255, 255, 255, 0.18);
+    background: rgba(10, 10, 10, 0.329);
     padding: 4em;
     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .3);
 }
@@ -1056,6 +1056,10 @@ h3.counter {
     font-size: 3em;
     font-weight: 700;
     margin-bottom: 10px;
+}
+
+#stats-text{
+    background-blend-mode: overlay;
 }
 
 /* //stats */

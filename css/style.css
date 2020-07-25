@@ -153,10 +153,10 @@ nav {
 
 #logo a img {
     position: absolute;
-    left: -4%;
-    transform: rotate(-24deg);
+    left: -2%;
+    /* transform: rotate(-24deg); */
     width: 50%;
-    top: 17%;
+    top: 20%;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -608,7 +608,7 @@ li.call-w3pvt span {
 }
 
 .csslider>ul>li:nth-child(2) {
-    background: url(../images/broom\ 2.jpg) no-repeat bottom;
+    background: url(../images/couch.jpg) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1211,6 +1211,31 @@ p.title-sub {
     letter-spacing: .5px;
     color: #000;
 }
+#contactus{
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 720px){
+    #contact{
+        display: flex;
+        flex-direction: column !important;
+        flex-flow: column wrap !important;
+        margin-left: 0 !important;
+    }
+    .map{
+        width: 180% !important;
+    }
+}
+
+#col-4{
+    background-color: rgba(0, 0, 0, 0.733) !important;
+    box-shadow: 0 2px 5px #666 !important;
+    color: white;
+    position: relative;
+    left: 5px;
+    width: 100% !important;
+}
 
 button.btn-w3pvt {
     background: #ff3c41;
@@ -1229,13 +1254,17 @@ button.btn-w3pvt {
 
 /* middle section */
 .text {
-    background: #39cc9c;
-    background: url(../images/l\ sofa.jpg) no-repeat center;
-    background-size: cover;
+    
+    background: url(../images/l\ sofa.jpg) no-repeat center !important;
+    background-size: cover !important;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
+}
+
+#middle-text {
+    background: rgba(8, 8, 8, 0.459);
 }
 
 .text h5 {
@@ -1251,7 +1280,7 @@ button.btn-w3pvt {
 
 a.work {
     padding: 12px 25px;
-    background: rgba(19, 18, 18, 0.2);
+    background: rgba(0, 0, 0, 0.678);
     color: #eee;
     font-size: 15px;
     letter-spacing: 1px;
@@ -1309,6 +1338,7 @@ a.work {
 
 /* footer */
 footer {
+    background-blend-mode: overlay;
     background: url(../images/broom\ 3.jpg) no-repeat top;
     background-size: cover;
     -webkit-background-size: cover;
